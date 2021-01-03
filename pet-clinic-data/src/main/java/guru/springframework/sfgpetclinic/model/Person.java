@@ -1,23 +1,23 @@
 package guru.springframework.sfgpetclinic.model;
 
 public class Person {
+    private String firsName;
 
-  private String firstName;
-  private String lastName;
+    private String lastName;
 
-  public String getFirstName() {
-    return firstName;
-  }
+    public String getFirsName() {
+        return firsName;
+    }
 
-  public void setFirstName(String firstName) {
-    this.firstName = firstName;
-  }
+    public void setFirsName(String firsName) {
+        this.firsName = firsName;
+    }
 
-  public String getLastName() {
-    return lastName;
-  }
+    public String getLastName() {
+        return lastName;
+    }
 
-  public void setLastName(String lastName) {
-    this.lastName = lastName;
-  }
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 }
